@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vk2gpz",
+    "module": "elmer-mongo",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.vk2gpz",
+          "module": "elmer-db",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.mongodb",
+          "module": "mongo-java-driver",
+          "version": {
+            "requires": "3.12.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elmer-mongo-1.0.0.jar",
+          "url": "elmer-mongo-1.0.0.jar",
+          "size": 5593,
+          "sha512": "c2a9ea805b5d884ef5217c591da47c4fd3308cba950d078760b041f7070039bdb92b6d0c2d2ac794e59259d770fa6b526fad2c485a6c4b6a8f635f038c4a5b4c",
+          "sha256": "9cd8aa14bce3f6d6dd14b3ff1af71d7ca573871b5758e81de8ca095f8680b54c",
+          "sha1": "df5ed4f14e1221c00270d7185b763e9ac30b30f8",
+          "md5": "33d8ec11afa1994caf6080fcc1182a4a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.vk2gpz",
+          "module": "elmer-db",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.mongodb",
+          "module": "mongo-java-driver",
+          "version": {
+            "requires": "3.12.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elmer-mongo-1.0.0.jar",
+          "url": "elmer-mongo-1.0.0.jar",
+          "size": 5593,
+          "sha512": "c2a9ea805b5d884ef5217c591da47c4fd3308cba950d078760b041f7070039bdb92b6d0c2d2ac794e59259d770fa6b526fad2c485a6c4b6a8f635f038c4a5b4c",
+          "sha256": "9cd8aa14bce3f6d6dd14b3ff1af71d7ca573871b5758e81de8ca095f8680b54c",
+          "sha1": "df5ed4f14e1221c00270d7185b763e9ac30b30f8",
+          "md5": "33d8ec11afa1994caf6080fcc1182a4a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elmer-mongo-1.0.0-sources.jar",
+          "url": "elmer-mongo-1.0.0-sources.jar",
+          "size": 3580,
+          "sha512": "afdf042c211d03cbbf563096848cbe7398ef2bb2bc48ab04467546c25f3dff400d1cdb21cf0adafa21384d0d75937c613f67ac46bb3d87f878fcec24548b9ce1",
+          "sha256": "d02c8ba083ebfdb9fee37aa43559bc8bae56736f6238341155238564b3e296bd",
+          "sha1": "3df664be70053a41a38d6bb854791669e69a9f39",
+          "md5": "39188ed9a8e396b1db4923b54b6157ec"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elmer-mongo-1.0.0-javadoc.jar",
+          "url": "elmer-mongo-1.0.0-javadoc.jar",
+          "size": 4152418,
+          "sha512": "7b0f5f370e8178e64a3a262733c57ee87348f5873737c1e7e067af160d628f1a32348331d83089bb11ef7ad543a9600c84df5135c258ea4cb80d538450ab2fef",
+          "sha256": "d2dfb62b623e1af7411aed96fed89202ec020b970fcbb7907883f8a07af84168",
+          "sha1": "43d70dfa6c77689ac39ccfee5b0eb21cb604633b",
+          "md5": "b4467da7ab302e6b143ccf606e64b963"
+        }
+      ]
+    }
+  ]
+}

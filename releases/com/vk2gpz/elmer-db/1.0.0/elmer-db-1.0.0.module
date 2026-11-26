@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vk2gpz",
+    "module": "elmer-db",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.vk2gpz",
+          "module": "elmer-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elmer-db-1.0.0.jar",
+          "url": "elmer-db-1.0.0.jar",
+          "size": 17935,
+          "sha512": "e700e1970ad391cd0569d85ce33f20a4de0dada69eb0d48a5e8f6638fa109eba44afe2e0f02ce29638b46149599d20944b13af8f540858cfbd6c16e85d7c53cb",
+          "sha256": "20a54652311ebdf86369c7d66c9f886909fc9ba87927213b7f94001c94c5eddd",
+          "sha1": "47599de68512a7946dc88927bdf9432dfcdf2ad3",
+          "md5": "5ce71106764ee58d9749a54393e8852c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.vk2gpz",
+          "module": "elmer-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elmer-db-1.0.0.jar",
+          "url": "elmer-db-1.0.0.jar",
+          "size": 17935,
+          "sha512": "e700e1970ad391cd0569d85ce33f20a4de0dada69eb0d48a5e8f6638fa109eba44afe2e0f02ce29638b46149599d20944b13af8f540858cfbd6c16e85d7c53cb",
+          "sha256": "20a54652311ebdf86369c7d66c9f886909fc9ba87927213b7f94001c94c5eddd",
+          "sha1": "47599de68512a7946dc88927bdf9432dfcdf2ad3",
+          "md5": "5ce71106764ee58d9749a54393e8852c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elmer-db-1.0.0-sources.jar",
+          "url": "elmer-db-1.0.0-sources.jar",
+          "size": 10956,
+          "sha512": "f6f05c6ddf29e58e8ef5db392f52a422ec642d569e133b4928e850201ae4f01a89c534bc21a52398af5250261b33d77ca4609922cbd95111f73c06384eb88e1c",
+          "sha256": "d76de68572fb347e3afb00f3e2ce79d374e21622bbb597be6031d1e0432e0f25",
+          "sha1": "92092850aae672edf765bc02659e7d92894a557e",
+          "md5": "20a2115df590e8867a53fc54e73826df"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elmer-db-1.0.0-javadoc.jar",
+          "url": "elmer-db-1.0.0-javadoc.jar",
+          "size": 4189985,
+          "sha512": "b066ad1514cc962d71eab6b02df6603fd1a916b66696409010bd1c03888adaa883bfba0ddd465c5257d7811856c675366980fceec9a9346961dacb73d9f740c6",
+          "sha256": "e0c1a2b9601d0f5ee5cf8c3c860b5f9ccc59301e7bc6d4a3723411429abda6fe",
+          "sha1": "f323a6b0b5ef0a84708153bcc82830c491ce2e22",
+          "md5": "e5b26a92e59aaf82990979ae599a5e2a"
+        }
+      ]
+    }
+  ]
+}

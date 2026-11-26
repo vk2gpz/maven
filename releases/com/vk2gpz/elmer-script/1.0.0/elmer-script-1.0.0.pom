@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vk2gpz</groupId>
+  <artifactId>elmer-script</artifactId>
+  <version>1.0.0</version>
+  <name>elmer-script</name>
+  <description>elmer script: a small Lisp interpreter and a boolean expression evaluator (built on Javaluator)</description>
+  <url>https://github.com/vk2gpz/elmer</url>
+  <inceptionYear>1993</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vk2gpz</id>
+      <name>vk2gpz</name>
+      <email>vk2gpz@gmail.com</email>
+      <url>https://github.com/vk2gpz</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/vk2gpz/elmer.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/vk2gpz/elmer.git</developerConnection>
+    <url>https://github.com/vk2gpz/elmer</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/vk2gpz/elmer/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.fathzer</groupId>
+      <artifactId>javaluator</artifactId>
+      <version>3.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vk2gpz",
+    "module": "elmer-classloader",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.vk2gpz",
+          "module": "elmer-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elmer-classloader-1.0.0.jar",
+          "url": "elmer-classloader-1.0.0.jar",
+          "size": 66162,
+          "sha512": "a51dea0cedd0b10c4e0399cbe6a5580d8d582017c00403bcd21bba47662c6b045c14d96c450b50058f66c8ebbb29152c0e0539db93e3ea7fe51180dce4c256c8",
+          "sha256": "a2d00c1094f831c5a2a11cce6d8706715881b35c761dadda0140e88938377002",
+          "sha1": "cf0ecce1dfb384f3ce60ef549ced5e85374e46cd",
+          "md5": "2f43a78b5cc7e159724d309e0c391870"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.vk2gpz",
+          "module": "elmer-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elmer-classloader-1.0.0.jar",
+          "url": "elmer-classloader-1.0.0.jar",
+          "size": 66162,
+          "sha512": "a51dea0cedd0b10c4e0399cbe6a5580d8d582017c00403bcd21bba47662c6b045c14d96c450b50058f66c8ebbb29152c0e0539db93e3ea7fe51180dce4c256c8",
+          "sha256": "a2d00c1094f831c5a2a11cce6d8706715881b35c761dadda0140e88938377002",
+          "sha1": "cf0ecce1dfb384f3ce60ef549ced5e85374e46cd",
+          "md5": "2f43a78b5cc7e159724d309e0c391870"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elmer-classloader-1.0.0-sources.jar",
+          "url": "elmer-classloader-1.0.0-sources.jar",
+          "size": 48359,
+          "sha512": "5f76ac311a019a71e34f011512ef93ed4d5c8f7c316841c1b6819180060e15fcf14bfb3333fbf72be97722fbf96a30a4a2051aaefe127a925034677136249878",
+          "sha256": "e5926afcc503107246c3e9ed08492a4a95b09255106398a27cef06fd4b2a12d1",
+          "sha1": "088596cc7ba3bc65fcc164f62a9b4a9ba200eaaa",
+          "md5": "56e5a1c88d19313347a149f153b2c52c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elmer-classloader-1.0.0-javadoc.jar",
+          "url": "elmer-classloader-1.0.0-javadoc.jar",
+          "size": 4201167,
+          "sha512": "fefb57779c45ae3cfd9de5f9228b06a2c81afc3de3d3bd081d833c8e25ca773c787ae8466d70c6386b3a34c47c5d70041287b58f7feb4b1ee7a25d23eb4bd804",
+          "sha256": "2913f5caa06fa4c4d183398800c53491c7b962b62e9a66b56c57be65a0c9e72c",
+          "sha1": "0f70af551471c6f94809e7ecf331a33eb497e2cf",
+          "md5": "7188aaaeee3a7cca9a2fbcbee52c6dc1"
+        }
+      ]
+    }
+  ]
+}

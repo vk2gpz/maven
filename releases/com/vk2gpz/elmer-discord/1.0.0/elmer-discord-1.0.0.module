@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vk2gpz",
+    "module": "elmer-discord",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.discord4j",
+          "module": "discord4j-core",
+          "version": {
+            "requires": "3.3.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elmer-discord-1.0.0.jar",
+          "url": "elmer-discord-1.0.0.jar",
+          "size": 1133,
+          "sha512": "99007a02d6bbbf4c2318b7cbd1c7caea8ab3197c8bda861bf6b26978ccb565be5db81f238a13be6ad7d574fc955edadfd613f729035152fb863fc0b5a70aa9ee",
+          "sha256": "dbfd8e617e35bb1050b5758aea9674dbb1dbbb3c9cd40404708ae0d44adcde62",
+          "sha1": "cc6eddbcdd2660e528b3ee549b59c80b1bec3275",
+          "md5": "2872339c0048fa61d3c4d044fa88a25e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.discord4j",
+          "module": "discord4j-core",
+          "version": {
+            "requires": "3.3.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elmer-discord-1.0.0.jar",
+          "url": "elmer-discord-1.0.0.jar",
+          "size": 1133,
+          "sha512": "99007a02d6bbbf4c2318b7cbd1c7caea8ab3197c8bda861bf6b26978ccb565be5db81f238a13be6ad7d574fc955edadfd613f729035152fb863fc0b5a70aa9ee",
+          "sha256": "dbfd8e617e35bb1050b5758aea9674dbb1dbbb3c9cd40404708ae0d44adcde62",
+          "sha1": "cc6eddbcdd2660e528b3ee549b59c80b1bec3275",
+          "md5": "2872339c0048fa61d3c4d044fa88a25e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elmer-discord-1.0.0-sources.jar",
+          "url": "elmer-discord-1.0.0-sources.jar",
+          "size": 1659,
+          "sha512": "d9dea2365e2f947507be3816ba04e2e32404a73319c060a7274b2efca4edb74da34dffbd496e387ba1b18fff1c00f90dd031c2d2e1913d5793ac1d4d414b89e8",
+          "sha256": "ff59248bfec4380dcb9f7def55add185fbd9d70089a3fc8e0ecf9314bc7db439",
+          "sha1": "19737da9f14463ebaada1bd2f54c5f32c82d386e",
+          "md5": "de1cdbe70c27fe6ae8a3fa237ac61f1d"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elmer-discord-1.0.0-javadoc.jar",
+          "url": "elmer-discord-1.0.0-javadoc.jar",
+          "size": 4140362,
+          "sha512": "ae3f29749eb46e9f5e6b45c9beb8b3fcaa9096707a30a7e084d1d918791fe9dbd8c5477cc2e03f3fbdf415d17b907f7d875a3e657f07bc50515be98ae5a1021c",
+          "sha256": "7079cd490ec2552c8f8e758d94d3b06584074edc2e1bbe94bac3a0986bf82076",
+          "sha1": "78756755e424dddb697bdaadeaad071d767416dc",
+          "md5": "8f77990ad1fe5ccd5c225373e27f647a"
+        }
+      ]
+    }
+  ]
+}

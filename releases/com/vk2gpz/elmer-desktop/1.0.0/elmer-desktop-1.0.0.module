@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vk2gpz",
+    "module": "elmer-desktop",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.vk2gpz",
+          "module": "elmer-math",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.vk2gpz",
+          "module": "elmer-script",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elmer-desktop-1.0.0.jar",
+          "url": "elmer-desktop-1.0.0.jar",
+          "size": 11507,
+          "sha512": "dc618b37d9722a89f6f4719721af926eb59f5e4894f5d8ab6c22db4362556d4640bf519def68dc0f1ceac74d6271e01c46a06622ac4950520d1e1f88c5507bca",
+          "sha256": "a1510d1d1e7a2537e04ea7a25f84988922fcdec291f7e4d41f05e2c25ee5a8b7",
+          "sha1": "556b00a27a2e9ed8cc1b9389eccdfeac4e559fce",
+          "md5": "3d0795f1aeeb82bbec7611e60d3b2833"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.vk2gpz",
+          "module": "elmer-math",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.vk2gpz",
+          "module": "elmer-script",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elmer-desktop-1.0.0.jar",
+          "url": "elmer-desktop-1.0.0.jar",
+          "size": 11507,
+          "sha512": "dc618b37d9722a89f6f4719721af926eb59f5e4894f5d8ab6c22db4362556d4640bf519def68dc0f1ceac74d6271e01c46a06622ac4950520d1e1f88c5507bca",
+          "sha256": "a1510d1d1e7a2537e04ea7a25f84988922fcdec291f7e4d41f05e2c25ee5a8b7",
+          "sha1": "556b00a27a2e9ed8cc1b9389eccdfeac4e559fce",
+          "md5": "3d0795f1aeeb82bbec7611e60d3b2833"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elmer-desktop-1.0.0-sources.jar",
+          "url": "elmer-desktop-1.0.0-sources.jar",
+          "size": 8631,
+          "sha512": "cf8ed3744d5ca7196755f9db998872637e589545d875c81ce2bd2d5806c7d63464c8ac9240edd6997fb0b72326c820c8fd702d354d0179c84d50b51f5d15acc6",
+          "sha256": "2c5d17fde333e54c7def2c5be72923c92fc7e249117c6451372b42fe73bc4a61",
+          "sha1": "c16707b485effdbbc8b0acb13f8164eeb1c6d5a0",
+          "md5": "f84d644fb941cbd29fdeec79be2688b2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elmer-desktop-1.0.0-javadoc.jar",
+          "url": "elmer-desktop-1.0.0-javadoc.jar",
+          "size": 4171023,
+          "sha512": "3a61f29a2282602f919a9fe0ccdb4cb308d8b6176fa9ebc090521e52293adb1761ae97168638d52d432f0966de7a11f6f70c39dbc9d5575a904b511f5e614a87",
+          "sha256": "41365fc061cedfde409fd5a121f495fd7bf93abd52dcbd1e795fd8d491ee8aae",
+          "sha1": "cf35627e9149d4bf4e97ea2d75d62a916b916519",
+          "md5": "3ff0f3577ef91aee767e97878df567be"
+        }
+      ]
+    }
+  ]
+}

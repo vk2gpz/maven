@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vk2gpz",
+    "module": "elmer-math",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.vk2gpz",
+          "module": "elmer-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elmer-math-1.0.0.jar",
+          "url": "elmer-math-1.0.0.jar",
+          "size": 87097,
+          "sha512": "48cf066ab5b023454bf9b068020ee96e8e621f42f3e81ac14d68b5eb3714016ed2e27759b60dd8ef1deb21a2f42784f47b72d3e3b027a726ea49c46396866dc7",
+          "sha256": "69f552afbedc98d25e0509da989df03539bdb8a4a211fe4b5b125f6f7f6c45ed",
+          "sha1": "ccf41c2e9c01a489826c8b6929fc33483000b085",
+          "md5": "85e8f67fe5d8d9494536d73dabb5bcfb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.vk2gpz",
+          "module": "elmer-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elmer-math-1.0.0.jar",
+          "url": "elmer-math-1.0.0.jar",
+          "size": 87097,
+          "sha512": "48cf066ab5b023454bf9b068020ee96e8e621f42f3e81ac14d68b5eb3714016ed2e27759b60dd8ef1deb21a2f42784f47b72d3e3b027a726ea49c46396866dc7",
+          "sha256": "69f552afbedc98d25e0509da989df03539bdb8a4a211fe4b5b125f6f7f6c45ed",
+          "sha1": "ccf41c2e9c01a489826c8b6929fc33483000b085",
+          "md5": "85e8f67fe5d8d9494536d73dabb5bcfb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elmer-math-1.0.0-sources.jar",
+          "url": "elmer-math-1.0.0-sources.jar",
+          "size": 68399,
+          "sha512": "192a44ba1db2cc09e7f047e8851eb06fbc139667b82a1cef81569f7b4705413131189e70b7675b4a8b7c2aefb646faa1ee0a0ccb036cba640fc15d0e0260ee04",
+          "sha256": "ed1e6e358db25ecab0e4c29a3a2d66413abc907353f0342db80f2f7f79a5ec57",
+          "sha1": "b98a43675bdddadd2f49cfd045952aae8fdb4386",
+          "md5": "3439a43fcddfb79e97af39c86dc70c37"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "elmer-math-1.0.0-javadoc.jar",
+          "url": "elmer-math-1.0.0-javadoc.jar",
+          "size": 4304294,
+          "sha512": "ceba93801c75aa57f8fda7483d7c024d33269f3aa15103ce39b97f1009b122fdf1e263fb59a9c5c856f863cdf87be2e64764c2e032a4b6c6f7e52c788cb54d02",
+          "sha256": "f5549d9b0393058c2e4b81c99bc908614bf05da7502d33c4e78a14856446e2a2",
+          "sha1": "92e9c43c8b15588835afd6ee8c8bb101e9c0ba5f",
+          "md5": "a2b16155b1b373f003eb7e2eb80bcdd4"
+        }
+      ]
+    }
+  ]
+}
